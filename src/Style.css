@@ -1,0 +1,83 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Hind Siliguri', sans-serif;
+	margin: 0;
+}
+
+a:hover {
+	color: #ffa500;
+}
+
+.navigation {
+	height: 42px;
+	display: flex;
+	align-items: center;
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-list {
+	list-style: none;
+}
+
+.nav-link {
+	color: #f5fffa;
+	text-decoration: none;
+	padding: 24px;
+}
+
+.main-heading {
+	text-align: center;
+	color: #00ffff;
+	font-size: 30px;
+}
+
+.todo-container {
+	max-width: 800px;
+	box-shadow: 1px 1px 1px #f5fffa;
+	padding: 36px 24px 54px 24px;
+	background: black;
+	color: white;
+	margin: auto;
+	height: 100vh;
+}
+
+.form-label {
+	overflow: hidden;
+	font-size: 24px;
+	color: #ffa500;
+}
+
+.form-input {
+	width: 100%;
+	padding: 10px;
+	margin: 16px 0;
+	box-sizing: border-box;
+	display: inline-block;
+	outline: none;
+	font-size: 20px;
+}
+
+.todo {
+	padding: 12px 0;
+	border-bottom: 1px solid #c8ccce;
+	cursor: pointer;
+	user-select: none;
+	font-size: 20px;
+}
+
+.strike-through {
+	text-decoration: line-through;
+	color: #0ddc0d;
+}
+
+.remove-item-cross {
+	float: right;
+	padding-right: 10px;
+}
