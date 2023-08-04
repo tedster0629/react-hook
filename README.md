@@ -262,3 +262,5 @@ function ExampleWithManyStates() {
 - `dev` Runs webpack dev server for development ( in watch mode )
 - `prod` Runs webpack in production mode
 
+By NkSoftware
+
